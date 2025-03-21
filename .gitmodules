@@ -1,0 +1,8 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/grittypuffy/pact-backend
+	branch = main
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/grittypuffy/pact-frontend
+	branch = main
