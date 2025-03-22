@@ -1,19 +1,14 @@
-<center>
 <div>
-<img align="center" src="assets\microsoft-removebg-preview.png" height="100" width="400" alt="Logo"/>
+<img src="assets\microsoft-removebg-preview.png" height="100" width="400" alt="Logo"/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img align="center" src="assets\azure-removebg-preview.png" height="100" width="300" alt="Logo" />
+<img src="assets\azure-removebg-preview.png" height="100" width="300" alt="Logo" />
 </div>
-</center>
+<br/><br/>
 
-<center>
-<h1 align="center">PACT: Prompt Auto-Correction and Testing</h1>
-</center>
-<center>
-<h6 align="center">"A golden gateway to improve prompt-engineering skills of the users."</h6>
-</center>
+<h1>PACT: Prompt Auto-Correction and Testing</h1>
+<h6>"A golden gateway to improve prompt-engineering skills of the users."</h6>
+<br/><br/>
 
-<center>
 <a href="https://pact.azurewebsites.net/" target="_blank">
   <img src="assets/www.png" height="50" width="50" alt="Website Logo" />
 </a>
@@ -29,7 +24,6 @@
 <a href="/assets/PACT.pdf" target="_blank">
   <img src="assets/ppt.jpeg" height="50" width="50" alt="Presentation Logo" />
 </a>
-</center>
 <br/><br/>
 
 ## Overview  
@@ -96,22 +90,22 @@ How could a prompt pre-processing layer be implemented that would identify and c
 - **Security & Privacy Validation** – Identifies and removes sensitive or risky data.  
 - **Interactive Dashboard** – Visualizes statistics and trends for better understanding.  
 
-## Azure Technologies Used  
-- Azure App Service  
-- Azure Container Apps  
-- Azure Container Registry  
-- Azure Cosmos DB for MongoDB  
-- Azure OpenAI  
-- Azure ML Studio  
-- Azure AI Foundry  
-- Azure Translate  
-- Azure Cognitive Services  
-- Azure Language API  
-- Azure Blob Storage  
-- Azure Monitor  
-- Azure Key Vault  
-- Azure Security Center  
-- Azure Content Safety  
+## Azure Technologies Used
+- **Azure App Service** - A fully managed platform for building, deploying, and scaling web apps.  
+- **Azure Container Apps** - A serverless container service to run microservices and APIs.  
+- **Azure Container Registry** - A secure registry to store and manage container images.  
+- **Azure Cosmos DB for MongoDB** - A globally distributed, NoSQL database with MongoDB compatibility.  
+- **Azure OpenAI** - Provides access to OpenAI’s powerful language models for AI-powered applications.  
+- **Azure ML Studio** - A cloud-based platform for building, training, and deploying machine learning models.  
+- **Azure AI Foundry** - A suite of AI tools and models to enhance AI application development.  
+- **Azure Translate** - A language translation service supporting multiple languages.  
+- **Azure Cognitive Services** - A collection of AI services for vision, speech, language, and decision-making.  
+- **Azure Language API** - Analyzes and processes natural language text for sentiment, key phrases, and more.  
+- **Azure Blob Storage** - A scalable object storage solution for unstructured data like text and media files.  
+- **Azure Monitor** - A monitoring service that collects, analyzes, and visualizes telemetry data.  
+- **Azure Key Vault** - A secure key management service for storing secrets, certificates, and encryption keys.  
+- **Azure Security Center** - A unified security management system to detect and respond to threats.  
+- **Azure Content Safety** - Identifies and filters harmful or sensitive content to ensure compliance.
 
 ## Tech Stack  
 - **Frontend:** Next.js, Tailwind CSS  
@@ -122,7 +116,7 @@ How could a prompt pre-processing layer be implemented that would identify and c
 - **Development & Design:** VSCode, Microsoft Designer
 
 ## Architecture
-![Architecture](/PACT/assets/architecture.png)
+![Architecture](/assets/architecture.png)
 
 ## Working  
 PACT operates in a structured pipeline to refine user prompts, ensuring clarity, security, and effectiveness. The process involves multiple Azure services and AI-powered optimizations.  
