@@ -3,11 +3,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="assets\azure-removebg-preview.png" height="100" width="300" alt="Logo" />
 </div>
-<br/>
 
 <h1>PACT: Prompt Auto-Correction and Testing</h1>
 <h6>"A golden gateway to improve prompt-engineering skills of the users."</h6>
-<br/>
 
 <a href="https://pact.azurewebsites.net/" target="_blank">
   <img src="assets/www.png" height="50" width="50" alt="Website Logo" />
@@ -24,7 +22,6 @@
 <a href="/assets/PACT.pdf" target="_blank">
   <img src="assets/ppt.jpeg" height="50" width="50" alt="Presentation Logo" />
 </a>
-<br/><br/>
 
 ## Overview  
 PACT is an advanced system that auto-corrects, sanitizes user inputs, and tests and compares statistics before sending them to the AI. A golden gateway to improve prompt-engineering skills of the users.
@@ -164,4 +161,4 @@ This structured pipeline ensures that prompts are accurate, ethical, and AI-frie
 We welcome contributions, expecially for improving the AI models and enhancing the prompt optimization process. Feel free to fork the repository, make changes, and submit a pull request. Contributions can involve feedback, reporting of bugs on our platform, documentation, design, code or infrastructure.
 
 ## License
-PACT is licensed under MIT license, thus allowing permissive usage for your needs.
+PACT is licensed under MIT license, thus allowing permissive usage for your needs. For more information, refer to the [LICENSE](LICENSE) file.
