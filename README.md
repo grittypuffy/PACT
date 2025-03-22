@@ -24,7 +24,7 @@
 </a>
 
 ## Overview  
-PACT is an advanced system that auto-corrects, sanitizes user inputs, and tests and compares statistics before sending them to the AI. A golden gateway to improve prompt-engineering skills of the users.
+PACT (Prompt Auto-Correction and Testing) is an advanced system that auto-corrects, sanitizes user inputs, and tests and compares statistics before sending them to the AI. A golden gateway to improve prompt-engineering skills of the users.
 
 ## Links  
 - **Hosted Website:** [Visit Here](https://pact.azurewebsites.net/)  
