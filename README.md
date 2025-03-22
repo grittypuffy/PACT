@@ -49,6 +49,7 @@ PACT (Prompt Auto-Correction and Testing) is an advanced system that auto-correc
   - [Infrastructure & Deployment](#6-infrastructure--deployment)
 - [Contributors](#contributors)
 - [Contributing](#contributing)
+- [Project Setup](#project-setup)
 - [License](#license)
 
 ## Introduction  
@@ -159,6 +160,10 @@ This structured pipeline ensures that prompts are accurate, ethical, and AI-frie
 
 ## Contributing
 We welcome contributions, expecially for improving the AI models and enhancing the prompt optimization process. Feel free to fork the repository, make changes, and submit a pull request. Contributions can involve feedback, reporting of bugs on our platform, documentation, design, code or infrastructure.
+
+## Project Setup
+- **Frontend:** [View Repository](https://github.com/grittypuffy/pact-frontend)
+- **Backend:** [View Repository](https://github.com/grittypuffy/pact-backend)
 
 ## License
 PACT is licensed under MIT license, thus allowing permissive usage for your needs. For more information, refer to the [LICENSE](LICENSE) file.
