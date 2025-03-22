@@ -3,11 +3,11 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="assets\azure-removebg-preview.png" height="100" width="300" alt="Logo" />
 </div>
-<br/><br/>
+<br/>
 
 <h1>PACT: Prompt Auto-Correction and Testing</h1>
 <h6>"A golden gateway to improve prompt-engineering skills of the users."</h6>
-<br/><br/>
+<br/>
 
 <a href="https://pact.azurewebsites.net/" target="_blank">
   <img src="assets/www.png" height="50" width="50" alt="Website Logo" />
