@@ -26,7 +26,7 @@
   <img src="assets/youtube.png" height="50" width="50" alt="YouTube Logo" />
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="/PACT/assets/PACT.pdf" target="_blank">
+<a href="/assets/PACT.pdf" target="_blank">
   <img src="assets/ppt.jpeg" height="50" width="50" alt="Presentation Logo" />
 </a>
 </center>
@@ -39,7 +39,7 @@ PACT is an advanced system that auto-corrects, sanitizes user inputs, and tests 
 - **Hosted Website:** [Visit Here](https://pact.azurewebsites.net/)  
 - **Demo Video:** [Watch Video](https://youtu.be/hFMdVhcyoR4?feature=shared)  
 - **GitHub Repository:** [View on GitHub](https://github.com/grittypuffy/PACT)
-- **Presentation Slides:** [Download PDF](/PACT/assets/PACT.pdf)
+- **Presentation Slides:** [Download PDF](/assets/PACT.pdf)
 
 ## Table of Contents
 - [Introduction](#introduction)
