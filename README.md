@@ -27,7 +27,7 @@
 PACT (Prompt Auto-Correction and Testing) is an advanced system that auto-corrects, sanitizes user inputs, and tests and compares statistics before sending them to the AI. A golden gateway to improve prompt-engineering skills of the users.
 
 ## Links  
-- **Hosted Website:** [Visit Here](https://pact.azurewebsites.net/)  
+- **Website:** [Visit Here](https://pact.azurewebsites.net/)  
 - **Demo Video:** [Watch Video](https://youtu.be/hFMdVhcyoR4?feature=shared)  
 - **GitHub Repository:** [View on GitHub](https://github.com/grittypuffy/PACT)
 - **Presentation Slides:** [Download PDF](/assets/PACT.pdf)
@@ -56,8 +56,9 @@ PACT (Prompt Auto-Correction and Testing) is an advanced system that auto-correc
 PACT (Prompt Auto-Correction and Testing) is an advanced system that refines, sanitizes, and validates user inputs while generating detailed statistics to optimize prompts before they reach the AI. It enhances clarity, removes biases, flags security risks, and ensures compliance with ethical standards. Users can track performance, compare prompts, and refine their prompt-engineering skills through insightful analytics.
 
 ## Challenge Statement
-Auto Correct and Prompt Validation Before AI Execution
-Design a system that auto-corrects and validates user inputs before sending them to the AI
+### Auto Correct and Prompt Validation Before AI Execution
+**Design a system that auto-corrects and validates user inputs before sending them to the AI**
+
 How could a prompt pre-processing layer be implemented that would identify and correct grammatical errors, incomplete queries, or unclear inputs? How do you help users by flagging harmful or sensitive language in their prompts and suggesting safe and ethical alternatives? At same time, can you enhance the clarity and precision of prompts to improve AI output quality? For this project, design a system that auto-corrects and validates user inputs before sending them to the AI, ensuring that prompts are optimized, compliant, and free of potential risks (e.g., bias, harmful language, or sensitive data). Solutions should be effective in identifying and correcting errors or ambiguities in prompts. It’s important to have sensitivity and specificity in detecting harmful or risky language, and that there is an improvement in AI response quality and relevance after prompt correction.
 
 ## Problems Addressed  
@@ -85,7 +86,7 @@ How could a prompt pre-processing layer be implemented that would identify and c
 - **Voice-Based Prompt Input** – Enables speech-to-text for convenience.  
 - **Real-Time Feedback** – Provides instant insights on prompt quality.  
 - **Bias and Ethical Compliance Checks** – Ensures fairness and neutrality in prompts.  
-- **Security & Privacy Validation** – Identifies and removes sensitive or risky data.  
+- **Security & Privacy Validation** – Identifies and removes sensitive or risky data before evaluation of prompt.
 - **Interactive Dashboard** – Visualizes statistics and trends for better understanding.  
 
 ## Azure Technologies Used
@@ -94,7 +95,7 @@ How could a prompt pre-processing layer be implemented that would identify and c
 - **Azure Container Registry** - A secure registry to store and manage container images.  
 - **Azure Cosmos DB for MongoDB** - A globally distributed, NoSQL database with MongoDB compatibility.  
 - **Azure OpenAI** - Provides access to OpenAI’s powerful language models for AI-powered applications.  
-- **Azure ML Studio** - A cloud-based platform for building, training, and deploying machine learning models.  
+- **Azure ML Studio** - A cloud-based platform for building, training, fine-tuning and deploying machine learning models.  
 - **Azure AI Foundry** - A suite of AI tools and models to enhance AI application development.  
 - **Azure Translate** - A language translation service supporting multiple languages.  
 - **Azure Cognitive Services** - A collection of AI services for vision, speech, language, and decision-making.  
@@ -127,7 +128,7 @@ PACT operates in a structured pipeline to refine user prompts, ensuring clarity,
 - The prompt is sent to the **FastAPI backend**, which utilizes **LangChain** for AI-driven processing.  
 - If the input is voice-based, it is processed using **Azure AI Speech** to convert it into text.  
 - The text is analyzed by **Azure AI Language** for grammar correction, sentiment analysis, and translation.  
-- Sensitive information, including **Personally Identifiable Information (PII)**, is redacted using **Azure AI Foundry** and **Azure Content Safety**.  
+- Sensitive information, including **Personally Identifiable Information (PII)**, is redacted using **Azure AI Foundry** and **Azure AI Language** before processing for other metrics for enhanced privacy and is moderated using **Azure Content Safety**.  
 
 ### 3. Testing & Comparison  
 - The refined prompt is compared with the original user input using **Azure OpenAI** and **Azure AI Evaluation** to measure improvements.  
@@ -142,6 +143,7 @@ PACT operates in a structured pipeline to refine user prompts, ensuring clarity,
 - The final, optimized prompt is sent to **AI models** for response generation.  
 - **User history and performance analytics** are logged in **Azure CosmosDB for MongoDB**.  
 - **Insights from Log Analytics** help monitor system performance and security.  
+- **Training of deployed models** using sanitized and optimized prompts using **Azure Machine Learning** for adhering to responsible AI. 
 
 ### 6. Infrastructure & Deployment  
 - The entire application is **containerized using Docker** and deployed via **Azure Container Apps**.  
@@ -152,11 +154,11 @@ PACT operates in a structured pipeline to refine user prompts, ensuring clarity,
 This structured pipeline ensures that prompts are accurate, ethical, and AI-friendly while maintaining **security and compliance**.
 
 ## Contributors
-- **Arun Pranav A T** (LinkedIn: [arunpranavat](https://www.linkedin.com/in/arunpranavat/), GitHub: [arunpranav-at](https://github.com/arunpranav-at))  
-- **Aruthra S** (LinkedIn: [aruthra-s-66b97b256](https://www.linkedin.com/in/aruthra-s-66b97b256/), GitHub: [AruthraS](https://github.com/AruthraS))  
-- **R S Kierthana** (LinkedIn: [kierthana-rajesh-8b8b42256](https://www.linkedin.com/in/kierthana-rajesh-8b8b42256/), GitHub: [KierthanaRS](https://github.com/KierthanaRS))  
-- **Shalini S** (LinkedIn: [sjshalinisrinivasan](https://www.linkedin.com/in/sjshalinisrinivasan/), GitHub: [ShaliniSJ](https://github.com/ShaliniSJ))  
-- **Keerthana R** (LinkedIn: [keerthana304](https://www.linkedin.com/in/keerthana304/), GitHub: [grittypuffy](https://github.com/grittypuffy))
+- **Arun Pranav A T** - [LinkedIn](https://www.linkedin.com/in/arunpranavat/) - [GitHub](https://github.com/arunpranav-at)
+- **Aruthra S**       - [LinkedIn](https://www.linkedin.com/in/aruthra-s-66b97b256/) - [GitHub](https://github.com/AruthraS) 
+- **R S Kierthana**   - [LinkedIn](https://www.linkedin.com/in/kierthana-rajesh-8b8b42256/) - [GitHub](https://github.com/KierthanaRS)
+- **Shalini S**       - [LinkedIn](https://www.linkedin.com/in/sjshalinisrinivasan/) - [GitHub](https://github.com/ShaliniSJ)
+- **Keerthana R**     - [LinkedIn](https://www.linkedin.com/in/keerthana304/) - [GitHub](https://github.com/grittypuffy)
 
 ## Contributing
 We welcome contributions, expecially for improving the AI models and enhancing the prompt optimization process. Feel free to fork the repository, make changes, and submit a pull request. Contributions can involve feedback, reporting of bugs on our platform, documentation, design, code or infrastructure.
